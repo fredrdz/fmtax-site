@@ -1,3 +1,50 @@
-baseURL = "http://example.org/"
+baseURL = "http://localhost:1313"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "FM Tax Services"
+
+#main nav menu
+[[ menu.main ]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[ menu.main ]]
+name = "Services"
+url = "/services"
+weight = 2
+
+[[ menu.main ]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[ menu.main ]]
+name = "Contact"
+url = "/contact"
+weight = 4
+
+#footer
+[[ menu.footer_middle ]]
+name = "Legal Notice"
+url = "/legal"
+weight = 1
+
+[[ menu.footer_middle ]]
+name = "Services"
+url = "/services"
+weight = 2
+
+[[ menu.footer_middle ]]
+name = "About Us"
+url = "/about"
+weight = 3
+
+[[ menu.footer_middle ]]
+name = "Contact Us"
+url = "/contact"
+weight = 4
+
+[[ menu.footer_middle ]]
+name = "Support"
+url = "/support"
+weight = 5
