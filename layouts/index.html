@@ -1,374 +1,193 @@
 {{ define "main" }}
 <main>
-  <div
-    class="
-      preloader
-      bg-dark
-      flex-column
-      justify-content-center
-      align-items-center
-    "
-  >
-  <!--
-  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492.68 260.87"><path d="M409.07,23.8h41.64c.23.8.21,1.39-.74,1.44-.5,0-1,0-1.5,0-3.78,0-7.57,0-11.35.15a18.9,18.9,0,0,0-3.81.53,8.44,8.44,0,0,0-6.53,6.12,28.8,28.8,0,0,0-.86,4.61,32.94,32.94,0,0,0-.09,3.85q0,73.91,0,147.8a53.32,53.32,0,0,0,.53,7.88,7.74,7.74,0,0,0,6.12,6.68,33.77,33.77,0,0,0,6.31,1c3.13.19,6.28.11,9.42.14h2.44c.27.87.31,1.47-.76,1.53-.43,0-.86,0-1.29,0H383.29a5.33,5.33,0,0,1-1.7-.1c-.32-.11-.5-.63-1.08-1.44,1.29,0,2,0,2.79,0l12.19-.4a9,9,0,0,0,1.27-.17c5.92-1.18,8.63-4.18,9.11-10.19.17-2.13.27-4.28.27-6.41q0-74.32,0-148.65V35.78a1.43,1.43,0,0,0-.39-.08.31.31,0,0,0-.18.09,1.69,1.69,0,0,0-.23.36L332.09,175.37a1.09,1.09,0,0,1-.13.17,1.59,1.59,0,0,1-.4.14c-3.78.19-3.79.19-5.52-3.09L254.18,36.49a6.73,6.73,0,0,0-1.55-2.13c0,.45-.12.9-.12,1.35,0,36.69-.07,73.39.07,110.09,0,9.13.59,18.26,1.26,27.37A98,98,0,0,0,258,196.49c.63,2,1.52,3.84,2.3,5.75a2.64,2.64,0,0,0,2.93,1.86c3.49-.15,7,0,10.49,0h2c.2.83.25,1.4-.58,1.5-.5,0-1,0-1.5,0H229.36c-.5,0-1,0-1.5,0-.86-.08-.73-.68-.64-1.42h14.3a20.71,20.71,0,0,0,3.16-6.16,76,76,0,0,0,3.47-15.85c2-15.54,2.27-31.16,2.27-46.8q0-47.86,0-95.74a32.13,32.13,0,0,0-.65-7c-1-4.46-4.1-7-8.7-7.18-4.06-.18-8.13-.1-12.2-.14-.57,0-1.15,0-1.71,0-.82,0-.85-.6-.67-1.37h42.77q34.83,65.93,70,132.58Z"/><path d="M178.61,23.81c.83,12.21,1.66,24.29,2.49,36.52l-1.49.24c-.27-1.74-.56-3.4-.79-5.08-.63-4.66-1.19-9.34-1.89-14a6.69,6.69,0,0,0-1.24-2.87,16.11,16.11,0,0,0-5.49-4.36,58.07,58.07,0,0,0-15.95-5.43c-14.54-3.06-29.27-3.76-44.08-3.5a64.2,64.2,0,0,0-13.83,1.31,27,27,0,0,0-2.65.81,9.5,9.5,0,0,0-6.6,8.2,38.1,38.1,0,0,0-.38,5.12q0,33.32,0,66.62v2c.7.07,1.25.19,1.8.19,9.42-.13,18.85-.13,28.26-.44a91.92,91.92,0,0,0,21.39-2.84,39.78,39.78,0,0,0,7.17-2.72,10.16,10.16,0,0,0,6.07-10c0-2,0-4,0-6.05h1.47c0,.65.11,1.21.11,1.77q0,21,0,42c0,.36,0,.72,0,1.07-.06.94-.6,1-1.57.62v-5.22c0-6.53-1.94-9.45-8-11.92a57.41,57.41,0,0,0-15.41-3.47c-13.29-1.52-26.65-1.3-40-1.3a9.85,9.85,0,0,0-1.15.13c0,.78-.1,1.48-.1,2.17q0,37.71,0,75.4a50.6,50.6,0,0,0,.71,7.87,7.27,7.27,0,0,0,5.64,6.09,34.73,34.73,0,0,0,6.72,1.15c3.2.21,6.42.11,9.63.14h2.27c.34.9.28,1.45-.64,1.52-.43,0-.86,0-1.29,0H42.93c-.94,0-1-.6-.74-1.53.79,0,1.63,0,2.48,0l12-.4c.15,0,.29,0,.43,0,6.52-.84,9.46-4,9.86-10.53.11-1.78.11-3.57.11-5.35q0-73.05,0-146.09A44.46,44.46,0,0,0,66.44,34a9.15,9.15,0,0,0-7.52-7.83,49.87,49.87,0,0,0-7.42-.84c-2.7-.14-5.42-.06-8.14-.06-.93,0-1.59-.18-1.2-1.45Z"/><path d="M489.33,3.23H3.44V59.79l-3,.13C0,58.26-.17,2.92.25,0H492.5V59.79l-3.05.15c-.23-2.83-.09-5.52-.12-8.19s0-5.29,0-7.93V3.23Z"/><path d="M489.28,225.5V168.94h3c.46,1.54.54,57.66.07,59.86H.16V168.9H3.37v56.6Z"/><path d="M256.91,245.87h2.82c2.35,0,4.71-.06,7,0a9.66,9.66,0,0,1,3.11.61,3.86,3.86,0,0,1,2.49,3.88,4,4,0,0,1-2.43,3.73c-.56.27-1.16.47-1.91.77l4.47,5.18a2,2,0,0,1-2.79-.49c-1-1.27-2.1-2.53-3.24-3.7a3.06,3.06,0,0,0-1.74-1c-1.91-.12-3.83,0-6,0-.09,1.89-.17,3.62-.26,5.49l-1.6-.07Zm1.88,1.82v5.24c3.2,0,6.24.13,9.27-.05a2.58,2.58,0,0,0,0-5.15C265,247.59,262,247.69,258.79,247.69Z"/><path d="M177.62,257.78l.77-.87a51.61,51.61,0,0,0,6.13,2.08,15.11,15.11,0,0,0,4.44-.14,4.61,4.61,0,0,0,1.58-.62,2,2,0,0,0,1.15-2.12,1.74,1.74,0,0,0-1.54-1.55c-1.6-.32-3.23-.52-4.84-.81a44.34,44.34,0,0,1-4.59-.91c-1.41-.42-2.63-1.27-2.73-2.93s1-2.74,2.4-3.47c3.58-1.85,8.93-1.22,12.57,1.67l-1.17,1.17a10.5,10.5,0,0,0-8.54-2,5.42,5.42,0,0,0-2.19.74,2.88,2.88,0,0,0-1.1,1.65c-.16.79.5,1.35,1.23,1.52,1.44.34,2.92.58,4.38.83,1.61.27,3.25.41,4.84.77s3.12,1.23,3.22,3.2-1.13,3.14-2.77,3.94C187.55,261.57,180.65,261.12,177.62,257.78Z"/><path d="M440.21,257.8l1.12-1.18c1.83,1.22,3.68,2.33,5.87,2.42a27.76,27.76,0,0,0,4.46-.21,3.84,3.84,0,0,0,1.73-.76c1.49-1.07,1.3-2.89-.46-3.44a40,40,0,0,0-4.81-.87c-1.54-.27-3.1-.46-4.6-.87s-2.81-1.27-2.88-3,1.09-2.91,2.64-3.51a12.34,12.34,0,0,1,12.28,1.56l-1.34,1.23a10.35,10.35,0,0,0-8.59-1.79,6.37,6.37,0,0,0-2.34.94,1.52,1.52,0,0,0,.21,2.75,19.83,19.83,0,0,0,4.13,1c1.33.23,2.7.26,4,.49a10,10,0,0,1,2.63.81,3.18,3.18,0,0,1,1,5.3,7.32,7.32,0,0,1-2.67,1.67C449.54,261.44,443.63,261.08,440.21,257.8Z"/><path d="M232,258.68c.33,1.05.32,1.63-.61,1.72a8,8,0,0,1-.85,0H218.24v-14.5c4.49-.14,9,0,13.49-.05.58,1.42-.08,1.67-1.11,1.67H220V252c3.26.16,6.58,0,10,.11v1.62H220v5Z"/><path d="M402.83,260.41V245.93c4.6-.11,9.11-.1,13.58,0,.53,1.22,0,1.6-1,1.6H404.66V252h10l.11,1.69H404.68v5h12.07c.23.94.38,1.68-.71,1.69C411.7,260.44,407.36,260.41,402.83,260.41Z"/><path d="M377,256.5l1.34.72c0,.25,0,.41-.09.51-2.78,4.07-10.63,4-13.87.87s-2.83-9.36,1.13-11.73a10.48,10.48,0,0,1,10.42-.31,16.5,16.5,0,0,1,2.77,2.26L377,249.88c-2.09-2.72-4.88-3.09-7.92-2.57a5.5,5.5,0,0,0-4.95,5.73,5.4,5.4,0,0,0,4.74,5.88C371.9,259.52,374.7,259.19,377,256.5Z"/><path d="M89.81,260.13c-1.11.41-1.86.45-2.34-.55a2.24,2.24,0,0,1-.2-.37c-.71-2.41-2.37-3-4.72-2.78a33.78,33.78,0,0,1-5.13,0,2,2,0,0,0-2.17,1.3c-.24.59-.63,1.11-.9,1.69-.44,1-1.15,1.18-2.23.78a6.35,6.35,0,0,1,.32-.93c2.23-4.05,4.49-8.1,6.71-12.16.4-.72.8-1.43,1.75-1.23a2.28,2.28,0,0,1,1.39.72C84.81,251.06,87.27,255.54,89.81,260.13Zm-12.9-5.42h7.9c-1.35-2.48-2.56-4.67-3.94-7.18C79.5,250,78.29,252.22,76.91,254.71Z"/><path d="M127.4,260.16a2.52,2.52,0,0,1-3.13-.8c-1.47-1.64-3-3.2-4.7-5-1.71,1.78-3.33,3.44-4.91,5.15a2.25,2.25,0,0,1-2.86.61l6.52-7-6.44-6.94a2.38,2.38,0,0,1,3,.7c1.47,1.64,3,3.2,4.51,4.76,1.72-1.65,3.35-3.21,5-4.78,1-.94,1-1,3-.74l-6.5,7Z"/><path d="M294.79,246.18c1.52-.67,2.09,0,2.61,1,1.58,3,3.2,6,4.81,9.05.32.6.7,1.17,1.18,2,.48-.8.86-1.38,1.19-2,1.65-3.07,3.32-6.13,4.9-9.24a1.68,1.68,0,0,1,2.38-.89c-.24.57-.43,1.07-.69,1.55-2,3.84-4.05,7.68-6.13,11.49a2.76,2.76,0,0,1-1.28,1.25c-.92.32-1.56-.17-2-1.07-1.53-3-3.13-5.92-4.71-8.87C296.3,249.05,295.58,247.67,294.79,246.18Z"/><path d="M43.85,247.44H37.14c-.33-.91-.32-1.48.62-1.54s1.7,0,2.56,0h9.61a5.61,5.61,0,0,1,1.48,0c.39.11.93.42,1,.75.17.64-.4.79-.94.8-1.21,0-2.42,0-3.63,0-.69,0-1.38.07-2.24.11v12.6l-1.76.21Z"/><path d="M335.75,246.05h1.58v14.22h-1.58Z"/>
-  </svg>
-  -->
-    <svg
-      id="loader-logo"
-      xmlns="http://www.w3.org/2000/svg"
-      width="50"
-      height="50"
-      viewBox="0 0 64 78.4"
-    >
-      <path fill="#fff" d="M10,0h1.2V11.2H0V10A10,10,0,0,1,10,0Z" />
-      <rect
-        fill="none"
-        stroke="#fff"
-        stroke-width="11.2"
-        x="40"
-        y="17.6"
-        width="0"
-        height="25.6"
-      />
-      <rect
-        fill="none"
-        stroke="#fff"
-        stroke-opacity="0.4"
-        stroke-width="11.2"
-        x="23"
-        y="35.2"
-        width="0"
-        height="25.6"
-      />
-      <path fill="#fff" d="M52.8,35.2H64V53.8a7,7,0,0,1-7,7H52.8V35.2Z" />
-      <rect
-        fill="none"
-        stroke="#fff"
-        stroke-width="11.2"
-        x="6"
-        y="52.8"
-        width="0"
-        height="25.6"
-      />
-      <path fill="#fff" d="M52.8,0H57a7,7,0,0,1,7,7h0v4.2H52.8V0Z" />
-      <rect
-        fill="none"
-        stroke="#fff"
-        stroke-opacity="0.4"
-        stroke-width="11.2"
-        x="57.8"
-        y="17.6"
-        width="0"
-        height="11.2"
-      />
-      <rect
-        fill="none"
-        stroke="#fff"
-        stroke-width="11.2"
-        x="6"
-        y="35.2"
-        width="0"
-        height="11.2"
-      />
-      <rect
-        fill="none"
-        stroke="#fff"
-        stroke-width="11.2"
-        x="40.2"
-        y="49.6"
-        width="0"
-        height="11.2"
-      />
-      <path fill="#fff" d="M17.6,67.2H28.8v1.2a10,10,0,0,1-10,10H17.6V67.2Z" />
-      <rect
-        fill="none"
-        stroke="#fff"
-        stroke-opacity="0.4"
-        stroke-width="28.8"
-        x="31.6"
-        width="0"
-        height="11.2"
-      />
-      <rect
-        fill="none"
-        stroke="#fff"
-        x="14"
-        stroke-width="28.8"
-        y="17.6"
-        width="0"
-        height="11.2"
-      />
-    </svg>
-  </div>
-  <!-- Hero -->
+  <!-- header -->
+  {{ with .Params.header }}
   <section class="section section-header bg-gradient-gray-500 text-dark pb-md-10">
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-12 col-md-6">
+        {{ $titleLastWord := split .title " " | last 1 }}
+        {{ $titleLastWord := index $titleLastWord 0 }}
           <h1 class="display-2 mb-4">
-            Accounting & Bookkeeping
-            <span class="text-secondary-app fw-bold">pros.</span>
+            {{ strings.TrimSuffix $titleLastWord .title | markdownify }}
+            <span class="text-secondary-app fw-bold">
+              {{ $titleLastWord }}
+            </span>
           </h1>
           <p class="lead text-gray mb-1">
-            Lorem ipsum dolor* sit, amet consectetur adipisicing elit. Vero
-            accusantium ipsa amet similique!
+            {{ .content | markdownify }}
           </p>
-          <small class="text-light-gray"
-            >* Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            consequatur?</small
-          >
+          {{ if .smallprint.enable }}
+          {{ with .smallprint }}
+          <small class="text-light-gray">
+            *{{ .label | markdownify }}
+          </small>
+          {{ end }}
+          {{ end }}
+          <!-- available on app buttons -->
           <div class="d-flex flex-wrap mt-4 mt-lg-5">
-            <a href="#" class="btn btn-white mb-xl-0 me-3">
+            {{ range .header_item }}
+            {{ if .button.enable }}
+            {{ with .button }}
+            <a href="{{ .link }}" class="btn btn-white mb-xl-0 me-3">
               <span class="d-flex align-items-center">
                 <span class="icon icon-brand me-2"
-                  ><span class="fab fa-apple"></span
+                  ><span class="{{ .icon }}"></span
                 ></span>
                 <span class="d-inline-block text-left">
-                  <small class="fw-normal d-block">Available on</small> App
-                  Store
+                  <small class="fw-normal d-block">{{ .small_print }}</small>
+                  {{ .large_print }}
                 </span>
               </span>
             </a>
-            <a href="#" class="btn btn-white">
-              <span class="icon icon-brand me-2"
-                ><span class="fab fa-google-play"></span
-              ></span>
-              <span class="d-inline-block text-left">
-                <small class="fw-normal d-block">Available on</small> Google
-                Play
-              </span>
-            </a>
+            {{ end }}
+            {{ end }}
+            {{ end }}
           </div>
+          <!-- /available on app buttons -->
         </div>
-        <div class="col-12 col-md-6 text-center">
-          <img
-            class="d-none d-md-inline-block"
-            src="./assets/img/illustrations/app-landing.svg"
-            alt="Mobile App Mockup"
-          />
-        </div>
+        {{with .image}}
+          <div class="col-12 col-md-6 text-center">
+            <img
+              class="d-none d-md-inline-block"
+              src={{ . }}
+              alt="Mobile App Mockup"
+            />
+          </div>
+        {{ end }}
       </div>
     </div>
   </section>
-  <section class="section section-lg py-sm-0">
+  {{ end }}
+  <!-- /header -->
+  <!-- feature -->
+  {{ with .Params.feature }}
+  {{ if .enable }}
+  <section class="section section-lg py-0">
     <div class="container z-2 mt-sm-n6 mt-md-n7">
       <div class="row">
+        {{ range .feature_item }}
         <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="card bg-white border-gray-300 text-gray p-4">
             <div class="card-header bg-white border-0 pb-0">
-              <h2 class="h4 m-0">Lorem ipsum dolor sit amet</h2>
+              <h2 class="h4 m-0">{{ .name | title }}</h2>
             </div>
             <div class="card-body">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                porro, voluptatum magni autem fugit voluptate.
-              </p>
-              <a href="#" class="btn btn-sm btn-secondary-app animate-up-2 mt-3"
-                >Learn more</a
-              >
+              <p>{{ .content | markdownify }}</p>
+              {{ if .button.enable }}
+              {{ with .button }}
+              <a href="{{ .link }}" class="btn btn-sm btn-secondary-app animate-up-2 mt-3">
+                {{ .label }}</a>
+              {{ end }}
+              {{ end }}
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card bg-white border-gray-300 text-gray p-4">
-            <div class="card-header bg-white border-0 pb-0">
-              <h2 class="h4 m-0">Lorem ipsum dolor sit amet</h2>
-            </div>
-            <div class="card-body">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-                quod a earum aliquid quibusdam natus?
-              </p>
-              <a href="#" class="btn btn-sm btn-secondary-app animate-up-2 mt-3"
-                >Learn more</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card bg-white border-gray-300 text-gray p-4">
-            <div class="card-header bg-white border-0 pb-0">
-              <h2 class="h4 m-0">Lorem ipsum dolor sit amet</h2>
-            </div>
-            <div class="card-body">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur delectus hic illo, impedit eaque harum!
-              </p>
-              <a href="#" class="btn btn-sm btn-secondary-app animate-up-2 mt-3"
-                >Learn more</a
-              >
-            </div>
-          </div>
-        </div>
+        {{ end }}
       </div>
     </div>
   </section>
+  {{ end }}
+  {{ end }}
+  <!-- /feature -->
+  <!-- service -->
+  {{ with .Params.service }}
+  {{ if .enable }}
   <div class="section section-lg">
     <div class="container">
       <div class="row justify-content-between align-items-center">
         <div class="col-12 col-lg-6">
           <div class="d-flex flex-wrap justify-content-lg-start">
             <h2 class="h3 text-center text-lg-left mb-5">
-              Lorem ipsum dolor sit amet
+              {{ .title }}
             </h2>
+            {{ range .service_item }}
             <div class="my-4">
               <div class="d-flex">
                 <div class="me-3 me-md-4">
                   <div class="icon icon-md icon-secondary-app">
-                    <span class="fas fa-shield-alt"></span>
+                    <span class="{{ .icon }}"></span>
                   </div>
                 </div>
                 <div>
-                  <h3 class="h4">Lorem, ipsum dolor</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nihil impedit ab porro, similique vero eligendi ipsum
-                    officia? Quam nobis culpa, eos at impedit suscipit commodi.
-                  </p>
+                  <h3 class="h4">{{ .name }}</h3>
+                  <p>{{ .content | markdownify }}</p>
                 </div>
               </div>
             </div>
-            <div class="my-4">
-              <div class="d-flex">
-                <div class="me-3 me-md-4">
-                  <div class="icon icon-md icon-secondary-app">
-                    <span class="fas fa-user-circle"></span>
-                  </div>
-                </div>
-                <div>
-                  <h3 class="h4">Lorem ipsum dolor sit</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Soluta optio temporibus ab commodi. Molestiae at incidunt
-                    perferendis possimus omnis nobis suscipit et aperiam
-                    cupiditate reiciendis.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="my-4">
-              <div class="d-flex">
-                <div class="me-3 me-md-4">
-                  <div class="icon icon-md icon-secondary-app">
-                    <span class="fas fa-file-alt"></span>
-                  </div>
-                </div>
-                <div>
-                  <h3 class="h4">Lorem ipsum dolor sit</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Itaque, et recusandae unde eius temporibus sit iure nobis
-                    totam neque corrupti hic assumenda, fugit aut quo!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-lg-5">
-          <img
-            class="d-none d-lg-inline-block"
-            src="./assets/img/illustrations/app-landing-2.svg"
-            alt="Mobile App Illustration"
-          />
+            {{ end }}
         </div>
       </div>
+      {{with .image}}
+      <div class="col-12 col-lg-5">
+        <img
+          class="d-none d-lg-inline-block"
+          src="{{ . }}"
+          alt="Mobile App Illustration"
+        />
+      </div>
+      {{ end }}
     </div>
   </div>
-  <div class="section section-sm py-0">
+  </div>
+  {{ else }}
+  <div class="section section-sm"></div>
+  {{ end }}
+  {{ end }}
+  <!-- /service -->
+  <!-- client_logo -->
+  {{ with .Params.client_logo }}
+  {{ if .enable }}
+  <div class="section section-sm">
     <div class="container">
       <div class="row text-center mb-5">
         <div class="col">
-          <h2 class="h6 fw-normal text-brown">We're proudly featured by</h2>
+          <h2 class="h6 fw-normal text-brown">{{ .title }}</h2>
         </div>
       </div>
       <div class="row text-center">
         <div class="col d-flex justify-content-center flex-wrap">
+          {{ range .client_logo_item }}
           <a
-            href="#"
-            aria-label="Stripe brand logo"
+            href="{{ .link }}"
+            aria-label="{{ .label }}"
             class="icon icon-xl me-4 me-lg-5"
             data-bs-toggle="tooltip"
             data-placement="top"
-            title="Stripe"
+            title="{{ .title }}"
           >
-            <span class="fab fa-stripe"></span>
+            <span class="{{ .icon }}"></span>
           </a>
-          <a
-            href="#"
-            aria-label="Digg brand logo"
-            class="icon icon-xl me-4 me-lg-5"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Digg"
-          >
-            <span class="fab fa-digg"></span>
-          </a>
-          <a
-            href="#"
-            aria-label="FedEx brand logo"
-            class="icon icon-xl me-4 me-lg-5"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="FedEx"
-          >
-            <span class="fab fa-fedex"></span>
-          </a>
-          <a
-            href="#"
-            aria-label="Ember brand logo"
-            class="icon icon-xl me-4 me-lg-5"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Ember"
-          >
-            <span class="fab fa-ember"></span>
-          </a>
-          <a
-            href="#"
-            aria-label="Beyond brand logo"
-            class="icon icon-xl me-4 me-lg-5"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="Beyond"
-          >
-            <span class="fab fa-d-and-d-beyond"></span>
-          </a>
-          <a
-            href="#"
-            aria-label="AngryCreative brand logo"
-            class="icon icon-xl"
-            data-bs-toggle="tooltip"
-            data-placement="top"
-            title="AngryCreative"
-          >
-            <span class="fab fa-angrycreative"></span>
-          </a>
+          {{ end }}
         </div>
       </div>
     </div>
   </div>
-  <section class="section section-lg">
+  {{ end }}
+  {{ end }}
+  <!-- /client_logo -->
+  <!-- testimonial -->
+  {{ with .Params.testimonial }}
+  {{ if .enable }}
+  <section class="section section-sm py-0">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-md-10 text-center mb-5 mb-lg-6">
-          <h2 class="display-3 mb-4">Customers love it</h2>
+          <h2 class="display-3 mb-4">{{ .title }}</h2>
           <p class="lead">
-            Lorem ipsum dolor, sit amet consectetur adipisicing
-            <br class="d-none d-lg-inline-block" />
-            lorem ipsum dolor sit amet.
+            {{ .content | markdownify }}
           </p>
         </div>
       </div>
-      <div class="row mt-lg-6 mb-4 mb-lg-6">
-        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+      <div class="row mt-lg-6 mb-4 mb-lg-4">
+        {{ range .testimonial_item }}
+        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-4">
           <div class="card border-gray-300">
             <div class="card-body text-center py-5">
               <img
                 class="image-sm img-fluid mx-auto mb-3"
-                src="./assets/img/clients/airbnb.svg"
-                alt="Airbnb brand"
+                src="{{ .image }}"
+                alt="{{ .label }}"
               />
               <span class="d-block">
                 <span class="star fas fa-star text-warning"></span>
@@ -378,310 +197,127 @@
                 <span class="star far fa-star text-warning"></span>
               </span>
               <p class="px-2 my-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex
-                vero magni sapiente accusamus dolorem soluta velit sit
-                doloremque cumque et!
+                {{ .testimonial }}
               </p>
-              <a href="#" class="btn btn-link text-black">
-                <span class="me-2"><span class="fas fa-book-open"></span></span>
-                <span class="fw-bold">Read story</span>
+              {{ if .button.enable }}
+              {{ with .button }}
+              <a href="{{ .link }}" class="btn btn-link text-black">
+                <span class="me-2"><span class="{{ .icon }}"></span></span>
+                <span class="fw-bold">{{ .label }}</span>
               </a>
+              {{ end }}
+              {{ end }}             
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card border-gray-300 mt-lg-n6">
-            <div class="card-body text-center py-5">
-              <img
-                class="image-sm img-fluid mx-auto mb-3"
-                src="./assets/img/clients/corsair.svg"
-                alt="Corsair brand"
-              />
-              <span class="d-block">
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star far fa-star text-warning"></span>
-              </span>
-              <p class="px-2 my-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aspernatur obcaecati, ab saepe provident numquam autem rerum
-                minima labore accusantium corrupti.
-              </p>
-              <a href="#" class="btn btn-link text-black">
-                <span class="me-2"><span class="fas fa-book-open"></span></span>
-                <span class="fw-bold">Read story</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
-          <div class="card border-gray-300">
-            <div class="card-body text-center py-5">
-              <img
-                class="image-sm img-fluid mx-auto mb-3"
-                src="./assets/img/clients/paypal.svg"
-                alt="Paypal brand"
-              />
-              <span class="d-block">
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star far fa-star text-warning"></span>
-              </span>
-              <p class="px-2 my-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur, in quibusdam. Tenetur totam autem aperiam
-                reprehenderit voluptatum, earum harum doloremque!
-              </p>
-              <a href="#" class="btn btn-link text-black">
-                <span class="me-2"><span class="fas fa-book-open"></span></span>
-                <span class="fw-bold">Read story</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0 mt-lg-4">
-          <div class="card border-gray-300">
-            <div class="card-body text-center py-5">
-              <img
-                class="image-sm img-fluid mx-auto mb-3"
-                src="./assets/img/clients/ebay.svg"
-                alt="Google brand"
-              />
-              <span class="d-block">
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star far fa-star text-warning"></span>
-              </span>
-              <p class="px-2 my-4">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
-                minus eos molestiae sint ex iste dolor hic ut molestias aperiam.
-              </p>
-              <a href="#" class="btn btn-link text-black">
-                <span class="me-2"><span class="fas fa-book-open"></span></span>
-                <span class="fw-bold">Read story</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0 mt-lg-n5">
-          <div class="card border-gray-300">
-            <div class="card-body text-center py-5">
-              <img
-                class="image-sm img-fluid mx-auto mb-3"
-                src="./assets/img/clients/northwestern.svg"
-                alt="northwestern brand"
-              />
-              <span class="d-block">
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star far fa-star text-warning"></span>
-              </span>
-              <p class="px-2 my-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero
-                possimus mollitia, autem veritatis architecto maxime rem animi
-                ab deserunt omnis!
-              </p>
-              <a href="#" class="btn btn-link text-black">
-                <span class="me-2"><span class="fas fa-book-open"></span></span>
-                <span class="fw-bold">Read story</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 mt-lg-4">
-          <div class="card border-gray-300">
-            <div class="card-body text-center py-5">
-              <img
-                class="image-sm img-fluid mx-auto mb-3"
-                src="./assets/img/clients/elastic.svg"
-                alt="Elastic brand"
-              />
-              <span class="d-block">
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star fas fa-star text-warning"></span>
-                <span class="star far fa-star text-warning"></span>
-              </span>
-              <p class="px-2 my-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                nesciunt cum reiciendis doloribus obcaecati eos? Repellendus ex
-                ducimus dolores blanditiis!
-              </p>
-              <a href="#" class="btn btn-link text-black">
-                <span class="me-2"><span class="fas fa-book-open"></span></span>
-                <span class="fw-bold">Read story</span>
-              </a>
-            </div>
-          </div>
-        </div>
+        {{ end }}
       </div>
+    </section>
+    {{ end }}
+    {{ end }}
+    <!-- /testimonial -->
+    <!-- accordian -->
+    {{ with .Params.accordian }}
+    {{ if .enable }}
+    <section class="section section-sm">
       <div class="row justify-content-center my-5">
         <div class="col-12 text-center">
-          <h2 class="display-3 mb-4">Common IRS Questions</h2>
+          <h2 class="display-3 mb-4">{{ .title }}</h2>
           <p class="lead">
-            Here are some of the common mistakes reported by survey123,
-            <br class="d-none d-lg-inline-block" />
-            lorem ipsum dolor sit amet.
+            {{ .content }}
           </p>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-12 col-md-8">
           <!--Accordion-->
-          <div class="accordion" id="accordionExample1">
+          <div class="accordion" id="accordion1">
+            {{ $.Scratch.Set "counter" 0 }}
+            {{ range .accordian_item }}
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
             <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
+              <h2 class="accordion-header" id="heading{{$.Scratch.Get "counter"}}">
                 <button
-                  class="accordion-button"
+                  class="accordion-button{{ if ne ($.Scratch.Get "counter") 1 }} collapsed{{ end }}"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
+                  data-bs-target="#collapse{{$.Scratch.Get "counter"}}"
+                  aria-expanded="{{ if eq ($.Scratch.Get "counter") 1 }}true{{ else }}false{{ end }}"
+                  aria-controls="collapse{{$.Scratch.Get "counter"}}"
                 >
-                  What is the purpose of a taxes?
+                  {{ .question }}
                 </button>
               </h2>
               <div
-                id="collapseOne"
-                class="accordion-collapse collapse show"
-                aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample1"
+                id="collapse{{$.Scratch.Get "counter"}}"
+                class="accordion-collapse collapse{{ if eq ($.Scratch.Get "counter") 1 }} show{{ end }}"
+                aria-labelledby="heading{{$.Scratch.Get "counter"}}"
+                data-bs-parent="#accordion1"
               >
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                  maiores omnis recusandae repellat, nobis rerum! Culpa
-                  dignissimos quod accusantium eveniet id consectetur sint animi
-                  provident. Harum quisquam molestiae, cum vitae unde numquam
-                  delectus quidem, odio tempore eos alias? Provident delectus
-                  sunt iure ipsum est quasi explicabo animi veritatis labore
-                  autem.
+                  {{ .answer }}
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  What is a tax?
-                </button>
-              </h2>
-              <div
-                id="collapseTwo"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample1"
-              >
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Perspiciatis doloribus quidem cum laudantium expedita, culpa
-                  tempora dolores enim, ab velit excepturi amet iure totam
-                  laboriosam temporibus nihil, aliquam atque fugit?
-                  Consequuntur, aspernatur odio ipsa esse nobis vitae error
-                  voluptatibus nulla cupiditate praesentium ea quaerat
-                  repellendus! Eveniet animi eum quaerat repellendus.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  What are the top 10 mistakes?
-                </button>
-              </h2>
-              <div
-                id="collapseThree"
-                class="accordion-collapse collapse"
-                aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample1"
-              >
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                  delectus dolorem officia excepturi quisquam illo quo modi
-                  temporibus, harum beatae iusto amet voluptatibus, sint,
-                  deserunt repellendus possimus doloribus? Facilis quaerat non
-                  suscipit laudantium veritatis magni enim fuga! Quas aut natus
-                  qui accusamus optio, animi voluptates ducimus quam reiciendis
-                  laudantium esse.
-                </div>
-              </div>
-            </div>
+            {{ end }}
+
           </div>
           <!--End of Accordion-->
         </div>
       </div>
     </div>
   </section>
+  {{ end }}
+  {{ end }}
+  <!-- /accordian -->
+  <!-- call_to_action -->
+  {{ with .Params.call_to_action }}
+  {{ if .enable }}
   <div class="section bg-primary-app">
     <div class="container">
       <div class="row row-grid align-items-center">
         <div class="col-12 col-lg-6">
-          <span class="h5 text-muted mb-2 d-block">Download App</span>
-          <h2 class="display-3 mb-4">Get started in seconds</h2>
+          <span class="h5 text-muted mb-2 d-block">{{ .title }}</span>
+          <h2 class="display-3 mb-4">{{ .title2 }}</h2>
           <p class="lead text-muted">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            aspernatur sunt quibusdam libero eveniet deleniti, repudiandae nihil
-            facilis quod minima accusamus et impedit eum facere aliquid labore
-            voluptas illo officiis.
+            {{ .content }}
           </p>
           <div class="d-sm-flex flex-wrap mt-4 mt-lg-5">
+            {{ range .cta_item }}
+            {{ if .button.enable }}
+            {{ with .button }}
             <div>
-              <a href="#" class="btn btn-dark mb-3 mb-sm-0 me-3">
+              <a href="{{ .link }}" class="btn btn-dark mb-3 mb-sm-3 me-3">
                 <span class="d-flex align-items-center">
                   <span class="icon icon-brand me-2"
-                    ><span class="fab fa-apple"></span
+                    ><span class="{{ .icon }}"></span
                   ></span>
                   <span class="d-inline-block text-left">
-                    <small class="fw-normal d-block">Available on</small>
-                    App Store
+                    <small class="fw-normal d-block">{{ .small_print }}</small>
+                    {{ .large_print }}
                   </span>
                 </span>
               </a>
             </div>
-            <div>
-              <a href="#" class="btn btn-dark">
-                <span class="icon icon-brand me-2"
-                  ><span class="fab fa-google-play"></span
-                ></span>
-                <span class="d-inline-block text-left">
-                  <small class="fw-normal d-block">Available on</small>
-                  Google Play
-                </span>
-              </a>
-            </div>
+            {{ end }}
+            {{ end }}
+            {{ end }}
           </div>
         </div>
+        {{ with .image }}
         <div class="col-12 col-lg-5 ms-lg-auto">
           <img
             class="d-none d-lg-inline-block"
-            src="./assets/img/illustrations/app-landing-cta.svg"
+            src="{{ . }}"
             alt="Mobile App Illustration"
           />
         </div>
+        {{ end }}
       </div>
     </div>
   </div>
+  {{ end }}
+  {{ end }}
+  <!-- /call_to_action -->
 </main>
 {{ end }}

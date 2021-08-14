@@ -8,23 +8,24 @@ AUTHOR WEBSITE: https://thedesque.com
 -->
 <!DOCTYPE html>
 <html lang="{{ site.LanguageCode | default "en-US" }}">
-	{{- block "head" . -}}	
+	{{ block "head" . }}	
 	{{ partial "head.html" . }}
-	{{- end -}}
+	{{ end }}
 		<body>
-			{{- block "header" . -}}
+			{{ block "header" . }}
 			{{ partial "header.html" . }}
-			{{- end -}}
+			{{ end }}
 			
+			{{ partial "preloader.html" . }}
 			{{ block "main" . }}
 			{{ end }}
 
-			{{- block "footer" . -}}			
+			{{ block "footer" . }}			
 			{{ partial "footer.html" . }}
-			{{- end -}}
+			{{ end -}}
 
-			{{- block "scripts" . -}}
+			{{ block "scripts" . }}
 			{{ partial "script.html" }}
-			{{- end -}}
+			{{ end }}
 		</body>
 </html>
